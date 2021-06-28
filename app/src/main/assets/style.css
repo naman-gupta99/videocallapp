@@ -1,0 +1,33 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#local-video {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+.primary-video {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secondary-video {
+    position: absolute;
+    max-height: 30%;
+    width: 30%;
+    margin: 16px;
+    border-radius: 16px;
+}
